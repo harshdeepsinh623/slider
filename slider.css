@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+
+.slider{
+    width: fit-content; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slides{
+    width:800px;
+    display: flex;
+    transition: all 1s;
+
+}
+.slides img{
+    width: 800px;
+    padding: 5px;
+}
+
+.dots{
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    backdrop-filter: blur(20px);
+    transform: translateY(-80px);
+}
+
+.dots a{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid gray;
+}
